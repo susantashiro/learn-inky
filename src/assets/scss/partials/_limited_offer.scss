@@ -1,0 +1,13 @@
+table.tm-limited-offer {
+    p {
+        width: 90%    !important;
+        font-size: 10px;
+        line-height: 12px;
+        padding-top: 7px;
+        color: $limited-offer-text-color;
+        a {
+            color: $limited-offer-text-color;
+        }
+    }
+
+}

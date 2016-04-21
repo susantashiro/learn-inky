@@ -1,0 +1,29 @@
+table.tm-shop-banner {
+    .columns {
+        padding-left: 0px    !important;
+        padding-right: 0px    !important;
+    }
+}
+table.tm-shop-items {
+    margin-bottom: 30px;
+    Margin-bottom: 30px;
+    a {
+        display: block;
+        text-decoration:none;
+        outline:0;
+        color: $main-title-color;
+        font-size: 15px;
+        font-weight: 600;
+        text-align: center;
+    }
+    td {
+        border-radius: 3px;
+        border: 0px solid transparent !important;
+    }
+    //necessary to override media-query.scss line 71 - zurb made correction
+    // @media only screen and (max-width: #{$global-breakpoint}) {
+    //     center {
+    //         width: 100% !important;
+    //     }
+    // }
+}

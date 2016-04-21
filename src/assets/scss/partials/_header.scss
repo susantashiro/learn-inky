@@ -1,0 +1,23 @@
+.tm-header-banner {
+    background-color: $section-background-color;
+    th {
+        padding: 0px    !important;
+    }
+    p {
+        font-size: 10px;
+        margin-top: 0px;
+        Margin-top: 0px;
+        margin-bottom: 0px;
+        Margin-bottom: 0px;
+        color: $header-text-color;
+    }
+}
+.tm-header-links {
+    margin-top: 25px;
+    Margin-top: 25px;
+    margin-bottom: 15px;
+    Margin-bottom: 15px;
+    .columns, img {
+        vertical-align: middle;
+    }
+}

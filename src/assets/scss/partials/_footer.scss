@@ -1,0 +1,85 @@
+
+table.tm-footer {
+    background-color: $section-background-color;
+    p {
+        color: $footer-text-color;
+    }
+    p.tm-footer-title {
+        font-family: $footer-title-font;
+        font-size: 28px;
+        line-height: 32px;
+        margin-top: $global-margin;
+    }
+    hr {
+        border-bottom-style: none;
+    }
+}
+table.tm-social-media-btns {
+    width: 80%    !important;
+    border-spacing:0;
+    margin:0 auto;
+    img {
+        vertical-align: middle;
+        border:0;
+        min-height: auto;
+        margin: auto;
+        //necessary to override media-query.scss line 11
+        @media only screen and (max-width: #{$global-breakpoint}) {
+            max-width: none !important;
+        }
+    }
+    th.small-2.large-2.columns {
+        //text-align: center
+        height: auto;
+        padding-bottom: 0px;
+    }
+}
+
+//id's necessary to override normalize.scss line 53
+#tm-twitter-icon,
+#tm-instagram-icon {
+    width: 31px     !important;
+}
+#tm-facebook-icon {
+    width: 18px     !important;
+}
+#tm-pinterest-icon {
+    width: 25px     !important;
+}
+#tm-youtube-icon {
+    width: 36px     !important;
+}
+#tm-googleplus-icon {
+    width: 37px     !important;
+}
+
+table.tm-line-break {
+    margin: auto;
+    width: 90%    !important;
+    height: 4px;
+    background-color: $footer-text-color;
+}
+table.tm-links {
+    p {
+        padding:0 5px;
+        font-size:14px;
+        line-height:16px;
+        text-decoration: underline;
+    }
+}
+table.tm-footer-text {
+    .columns {
+        padding-left: 0px    !important;
+        padding-right: 0px    !important;
+    }
+    p {
+        width: 90%;
+        font-size: 10px;
+        line-height: 14px;
+        // font-family: arial,sans-serif;
+        a {
+            text-decoration: underline;
+            color: $footer-text-color;
+        }
+    }
+}
